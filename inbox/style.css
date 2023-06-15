@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(./snake-reptile-digital-art-1920x1080-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: #0000007c;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0 .5);
+    border-radius: 10px;
+}
+
+.box h2{
+    margin: 0 0 30px;
+    text-align: center;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.box .inputBox{
+    position: relative;
+}
+.box .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #03f4d4;
+    font-size: 15px;
+    text-shadow: 0 0 5px #03f4d4,
+    0 0 10px #03f4d4;
+}
+.box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box .inputBox input:hover {
+    color: #03f4d4;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #212A3E;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.box .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #212A3E;
+}
+.box .link a{
+    text-decoration: underline;
+    color: #03a9f4;
+    font-size: large;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: large;
+    color: #03a9f4;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
